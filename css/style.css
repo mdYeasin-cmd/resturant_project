@@ -95,3 +95,47 @@ a{
     margin: 30px 0 90px;
 }
 /* //Today's Special Section CSS End */
+
+/* Recipies Section CSS Start */
+#recipies{
+    padding-top: 72px;
+}
+#recipies .row{
+    justify-content: center;
+}
+#recipies .section_info h2{
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#recipies .recipies_item{
+    width: 40%;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
+#recipies .recipies_item h3{
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+#recipies .recipies_item p{
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+p.sectionInfo_p {
+    width: 706px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+#recipies .recipies_item img{
+    width: 100%;
+}
+/* //Recipies Section   CSS End */
+
+/* Review Section CSS Start */
+
+/* //Review Section CSS End */

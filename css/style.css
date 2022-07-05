@@ -22,4 +22,76 @@ a{
     display: flex;
     flex-wrap: wrap;
 }
+.half_width{
+    width: 50%;
+}
 /* //Common CSS End */
+
+/* Banner Section CSS Start */
+/* #banner .row{
+    align-items: center;
+} */
+#banner .banner_content{
+    padding: 60px 0;
+}
+#banner .banner_content h1{
+    font-size: 55px;
+}
+#banner .banner_content h1 span{
+    color: #E82A41;
+}
+#banner .banner_content p{
+    color: #828282;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -2%;
+    margin: 40px 0;
+}
+.btn{
+    display: inline-block;
+    padding: 20px 32px;
+    background: linear-gradient(88.33deg, #EB6076 -7.64%, #E72A3F 145.94%);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 100px;
+    text-transform: capitalize;
+}
+#banner .banner_img{
+    padding: 60px;
+}
+#banner .banner_img img{
+    width: 100%;
+}
+/* //Banner Section CSS End */
+
+/* Today's Special Section CSS Start */
+#todaysSpecial{
+    background-image: url(../images/Frame_58.jpg);
+    background-size: cover;
+    padding: 60px 0 40px;
+}
+#todaysSpecial .todaysSpecial_img .img_box{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#todaysSpecial .todaysSpecial_img img{
+    width: 100%;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+#todaysSpecial .todaysSpecial_content h3{
+    font-size: 40px;
+    line-height: 54px;
+    color: #707070;
+}
+#todaysSpecial .todaysSpecial_content p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    margin: 30px 0 90px;
+}
+/* //Today's Special Section CSS End */
